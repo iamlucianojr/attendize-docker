@@ -1,7 +1,7 @@
 server {
-  server_name octopus.dev;
+  server_name attendize.dev;
   root        /var/www/web;
-  index       app_dev.php;
+  index       index.php;
 
   client_max_body_size 100M;
   fastcgi_read_timeout 1800;
